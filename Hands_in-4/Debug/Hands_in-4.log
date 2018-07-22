@@ -1,0 +1,16 @@
+﻿Build started 21.09.2014 22:53:17.
+     1>Project "C:\Users\Elias\Documents\Visual Studio 2013\Projects\Hands_in-4\Hands_in-4\Hands_in-4.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\elias\documents\visual studio 2013\projects\hands_in-4\hands_in-4\main.cpp(41): error C2951: template declarations are only permitted at global, namespace, or class scope
+     1>c:\users\elias\documents\visual studio 2013\projects\hands_in-4\hands_in-4\main.cpp(42): error C2998: 'DobbelList<DobbelNode> dblist' : cannot be a template definition
+     1>c:\users\elias\documents\visual studio 2013\projects\hands_in-4\hands_in-4\main.cpp(48): error C2510: 'dblist' : left of '::' must be a class/struct/union
+     1>c:\users\elias\documents\visual studio 2013\projects\hands_in-4\hands_in-4\main.cpp(48): error C2780: 'iterator_traits<_Iter>::difference_type std::count(_InIt,_InIt,const _Ty &)' : expects 3 arguments - 0 provided
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\xutility(3086) : see declaration of 'std::count'
+     1>c:\users\elias\documents\visual studio 2013\projects\hands_in-4\hands_in-4\main.cpp(53): fatal error C1506: unrecoverable block scoping error
+     1>Done Building Project "C:\Users\Elias\Documents\Visual Studio 2013\Projects\Hands_in-4\Hands_in-4\Hands_in-4.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.45
